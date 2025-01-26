@@ -1,6 +1,6 @@
 package com.mycompany.clase01;
 
-// Importamos la librería necesaria para usar JOptionPane
+// Importamos la Biblioteca necesaria para usar JOptionPane
 import javax.swing.JOptionPane;
 
 /**
@@ -16,13 +16,13 @@ public class EjercicioIntroductorio {
 
     public static void main(String[] args) {
         // Declaración de variables para almacenar los datos ingresados por el usuario
-        String nombre;  // Variable para el nombre (cadena de texto)
-        int edad;       // Variable para la edad (entero)
-        double salario; // Variable para el salario (decimal)
+        String nombre = "";  // Variable para el nombre (cadena de texto)
+        int edad = 0;       // Variable para la edad (entero)
+        double salario = 0; // Variable para el salario (decimal)
 
         // Usamos JOptionPane para mostrar un cuadro de entrada y pedir el nombre
         // JOptionPane.showInputDialog devuelve siempre un String
-        nombre = JOptionPane.showInputDialog(null, "Ingrese su nombre:", "Entrada de Datos", JOptionPane.QUESTION_MESSAGE);
+        nombre = JOptionPane.showInputDialog(null, "Ingrese su nombre:");
 
         // Usamos JOptionPane para pedir la edad
         // Convertimos el String devuelto por showInputDialog a un int usando Integer.parseInt

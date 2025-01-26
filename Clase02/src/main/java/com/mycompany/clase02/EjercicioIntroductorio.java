@@ -13,6 +13,9 @@ import javax.swing.JOptionPane;
 public class EjercicioIntroductorio {
 
     public static void main(String[] args) {
+
+        
+        
         // Programa 1: Verificar si el usuario puede votar
         
         // Paso 1: Solicitar la edad al usuario
@@ -47,4 +50,6 @@ public class EjercicioIntroductorio {
             JOptionPane.showMessageDialog(null, "Su nota fue " + nota + ". Lo siento, no aprobó el curso. ¡Siga esforzándose!");
         }
     }
+    
+      
 }
